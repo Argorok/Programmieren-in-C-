@@ -1,0 +1,9 @@
+#ifndef 1_2_H
+#define 1_2_H
+
+namespace exercises {
+int main(int, **char);
+}
+
+
+#endif //1_2_H

@@ -1,0 +1,49 @@
+/*
+ * aufgabe_3.cpp
+ *
+ *  Created on: 27.10.2018
+ *      Author: muellerd
+ */
+
+#include <iostream>
+#include <string>
+#include "aufgabe_3.h"
+
+/**
+ *
+ */
+int main(int argc, char** argv) {
+
+	return 0;
+}
+
+
+std::string writeIndents (int indentationLevel) {
+	std::string result;
+	for (int i = 0; i < indentationLevel; ++i) {
+		result += "\t";
+	}
+	return result;
+}
+
+std::string writePoint (int x, int y, int indentationLevel) {
+	std::string result;
+	// Declaration of Square
+	result += writeIndents(indentationLevel);
+	result += "<Point2d>\n";
+	++indentationLevel;
+	// Declaration of x coordinate
+	result += writeIndents(indentationLevel);
+	result += "<Number n=\"" + x + "\"/>\n";
+	// Declaration of y coordinate
+	result += writeIndents(indentationLevel);
+	result += "<Number n=\"" + y + "\"/>\n";
+
+	return result;
+}
+
+std::string writeSquare(int x, int y, int size, int indentationLevel) {
+	std::string result;
+
+	return result;
+}

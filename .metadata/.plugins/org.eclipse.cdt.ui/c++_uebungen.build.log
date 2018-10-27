@@ -1,0 +1,19 @@
+11:43:49 **** Incremental Build of configuration Debug for project c++_uebungen ****
+make all 
+Building file: ../1_2/aufgabe_3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"1_2/aufgabe_3.d" -MT"1_2/aufgabe_3.o" -o "1_2/aufgabe_3.o" "../1_2/aufgabe_3.cpp"
+In file included from ../1_2/aufgabe_3.cpp:10:0:
+../1_2/aufgabe_3.h:14:3: warning: unknown escape sequence: '\040'
+   "encoding=\"UTF-8\ standalone=\"yes\"?>\n";
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../1_2/aufgabe_3.cpp
+ 
+Building target: c++_uebungen
+Invoking: GCC C++ Linker
+g++  -o "c++_uebungen"  ./1_2/aufgabe_2.o ./1_2/aufgabe_3.o ./1_2/helloworld.o   
+Finished building target: c++_uebungen
+ 
+
+11:43:50 Build Finished (took 720ms)
+

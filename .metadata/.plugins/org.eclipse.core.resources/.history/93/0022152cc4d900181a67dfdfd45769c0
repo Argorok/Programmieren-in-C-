@@ -1,0 +1,13 @@
+/*
+ * 1_2_1.h
+ */
+
+#ifndef 1_2_1_H
+#define 1_2_1_H
+
+namespace exercises {
+	int main(int, char**);
+}
+
+
+#endif /* 1_2_1_H_ */
